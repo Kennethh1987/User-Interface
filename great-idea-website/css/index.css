@@ -67,16 +67,16 @@ h1, h2, h3, h4, h5 {
 .container{
 	width:900px;
 	margin:0 auto;
-	border: 2px solid red;
+	
 }
 header nav {
 	display: inline-block;
 	margin-top: 35px;
-	border:1px solid red;
+	
 
 }
 header nav a{
-	/*TB LR*/
+	/*TL BR*/
 	margin: 0 32px;
 	color:slategray;
 	text-decoration:none;
@@ -85,7 +85,7 @@ section {
 
 }
 .text {
-	border:2px solid green;
+
 	width:100%;
 
 	
@@ -93,41 +93,63 @@ section {
 .stubborn{
 	width:30%;
 	display:inline-block;
-	margin: 100px;
+	margin: 100px 100px 100px 150px;
 	height:auto;
 	padding:40px 60px 60px 90px;
+
+}
+.text{
+margin-top: -100px;
 }
 
 .text1 {
 	width:30%;
 	display:inline-block;
-	padding:40px 100px 60px 90px;
+	padding:40px 100px 60px 100px;
+	margin-left: -60px;
+
+}
+button{
+	display: inline-block;
+    white-space: nowrap;
+    padding: 5px 40px 5px 40px;
+	background: none;
+	outline: none;
+	border:1px solid black;
+	margin-left: -20px;
 }
 .button{
-	padding:40px 100px 60px 90px;
+	
+	padding:0px 0px 60px 90px;
+
 }
-div h1{
-	font-size:70px;
+div h1{	
+	
+	font-size:80px;
 	height:50%;
 	display:inline-block;
 	text-align:center;
 }
-.middle{
-	display:inline-block;
-	width:60%;
+.middle {
+	width: 100%;	
+		border-top: 2px solid black;
 
 }
 
-.middle,p {
-	text-align:center;
-	width:25%;
-	display:inline-block;
-	margin:0 3.5%;
+
+.middle p {
+
+
+	
 }
 
 div .middle {
-	width: 90%;
-	display: inline-block;
+}
+.topblock{
+	width:40%;
+	display:inline-block;
+	margin:0 3.5%;
+	padding:20px;
 
 }
 
@@ -138,16 +160,26 @@ img .coding {
  
 }
 .bottom{
-	display:inline-block;
-	width:60%;
+		border-bottom:2px solid black;
 }
 .bottom p {
-	text-align:center;
-	width:35%;
+	
+	
+}
+.inlineblock{
+
 	display:inline-block;
-	margin:0 3.5%;
+	width:33%;
+	padding:20px;
+
+}
+address{display:block;
+	padding:10px;
+
+	
 }
 
 footer{
+	text-align:center;
 
 }
