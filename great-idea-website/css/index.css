@@ -81,9 +81,8 @@ header nav a{
 	color:slategray;
 	text-decoration:none;
 }
-section {
 
-}
+
 .text {
 
 	width:100%;
@@ -143,8 +142,7 @@ div h1{
 	
 }
 
-div .middle {
-}
+
 .topblock{
 	width:40%;
 	display:inline-block;
